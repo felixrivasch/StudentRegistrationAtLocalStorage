@@ -1,0 +1,253 @@
+body{
+	margin: 0px;
+	margin-bottom: 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #CEF6F5;
+}
+
+div#contenedor-registro{
+	background: #34495e;
+	position: absolute;
+	top: 2%;
+	left: 30%;
+	width: 40%;
+	height: 42%;
+}
+
+div#contenedor-botones{
+	background: #34495e;
+	position: absolute;
+	top: 2%;
+	left: 73%;
+	width: 15%;
+	height: 42%;	
+	text-align: center;
+
+}
+
+div#contenedor-busqueda{
+	background: #34495e;
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	width: 40%;
+	height: 15%;	
+	text-align: center;
+
+}
+
+div#contenedor-datos{
+	background: #34495e;
+	position: absolute;
+	top: 61%;
+	left: 30%;
+	width: 40%;
+	height: 35%;
+	resize: true;
+}
+
+
+h1{
+	text-align: center;
+	font-family: Arial;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+
+
+table#table-busqueda{
+	position: absolute;
+	top: 40%;	
+	left: 2.5%;
+	width: 95%;
+	border: 1px solid;
+	border-color: #FFFFFF;
+}
+
+table#table-datos{
+	position: absolute;
+	top: 25%;	
+	left: 2.5%;
+	width: 95%;
+	border: 1px solid;
+	border-color: #FFFFFF;
+}
+
+thead{
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 80%;
+}
+
+tbody{
+	background: #FFFFFF;	
+	font-family: Arial;
+	font-size: 70%;
+}
+
+form{
+	color: #FFFFFF;
+	position: absolute;
+	top: 25%;
+	left: 0%;
+	width: 100%;
+	height: 77%;
+	font-family: Arial;
+	font-size: 85%;
+	
+}
+
+
+button.btn-action{
+	font-size: 70%;
+	position: absolute;
+	left: 10%;
+	width: 80%;
+	height: 10%;
+}
+
+
+button#mostrar-estudiantes{
+	top: 25%;
+	height: 10%;
+}
+button#mostrar-promedio{
+	top: 45%;
+}
+button#mostrar-mayor{
+	top: 60%;
+}
+button#mostrar-menor{
+	top: 75%;
+}
+
+button#boton-registro{
+	position: absolute;
+	top: 75%;
+	left: 25%;
+	width: 30%;
+	height: 9%;
+	border-radius: 2px;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	font-size: 70%;
+	font-weight: normal;
+	background-color: #2EFEF7;
+}
+
+button#boton-actualizar{
+	position: absolute;
+	top: 75%;
+	left: 60%;
+	width: 14%;
+	height: 9%;
+	border-radius: 1.5px;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	font-size: 70%;
+	font-weight: normal;
+	background-color: #2EFEF7;
+}
+
+button.btn-eliminar{
+	color: #DF013A;
+	width: 100%;
+	border: 1px solid;
+	border-radius: 1.5px;
+	padding: 0px 0px 0px 0px;
+	font-size: 95%;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+
+button.btn-editar{
+	color: #29088A;
+	width: 100%;
+	border: 1px solid;
+	font-size: 95%;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+
+input{
+	font-size: 85%;
+	position: absolute;
+	height: 10%;
+	left: 40%;
+	width: 38%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+label{
+	font-size: 85%;
+	position: absolute;
+	left: 20%;
+	width: 20%;
+	height: 10%;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+
+p#mensaje-registro{
+	position: absolute;
+	top: 84%;
+	width: 100%;
+	height: 10%;
+	border: 0px;
+	font-family: Arial;
+	font-size: 70%;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+button#buscar-estudiantes{
+	position: absolute;
+	top: 16%;
+	left: 63%;
+	width: 25%;
+	height: 19%;
+	border: 0px;
+	border-radius: 1.5px;
+	font-size: 70%;
+	font-weight: normal;
+	background-color: #2EFEF7;
+}
+
+label#label-codigo-busqueda{
+	font-family: Arial;
+	font-size: 70%;
+	color: #FFFFFF;
+	left: 7%;
+}
+
+input#codigo-busqueda{
+	font-size: 70%;
+	position: absolute;
+	left: 25%;
+	width: 30%;
+	height: 15%;
+	margin-top: 3%;
+}
+
+tr{
+	size: 70%;
+}
+
+
+
+img{
+	width: 100%;
+}
+
+img#imagen{
+	width: 10%;
+}
+
